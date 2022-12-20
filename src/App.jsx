@@ -1,5 +1,5 @@
 const App = () => {
-	console.log('otro cambio');
+	console.log('otro cambio 2');
 	return (
 		<div
 			style={{
