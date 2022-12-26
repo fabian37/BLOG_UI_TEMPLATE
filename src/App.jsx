@@ -1,25 +1,11 @@
-const App = () => {
-	console.log('otro cambio');
-	return (
-		<div
-			style={{
-				alignItems: 'center',
-				background: 'red',
-				display: 'flex',
-				height: '100vh',
-				justifyContent: 'center',
-			}}
-		>
-			<h1
-				style={{
-					color: 'white',
-					fontSize: '3rem',
-				}}
-			>
-				Bienvenidos al grupo de estudio!
-			</h1>
-		</div>
-	);
-};
+import { Header } from './components/header/Header';
+import { Home } from './pages/home/Home';
+
+const App = () => (
+	<>
+		<Header />
+		<Home />
+	</>
+);
 
 export default App;
