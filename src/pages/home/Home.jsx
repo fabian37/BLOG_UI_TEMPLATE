@@ -1,3 +1,10 @@
+import { Hero } from '../../components/hero/Hero';
+
 export const Home = () => {
-	return <div>Home</div>;
+	return (
+		<main>
+			<Hero />
+			<p>Aquí irán los posts y el asidebar</p>
+		</main>
+	);
 };
