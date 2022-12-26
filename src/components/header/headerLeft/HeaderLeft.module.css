@@ -1,9 +1,9 @@
 .headerLeftContainer {
 	align-items: center;
 	display: flex;
-	flex-grow: 1;
 	gap: 0.6em;
 	justify-content: center;
+	width: 25%;
 }
 .socialMediaContainer {
 	align-items: center;

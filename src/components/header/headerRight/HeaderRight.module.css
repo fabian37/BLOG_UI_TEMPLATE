@@ -1,9 +1,9 @@
 .headerRightContainer {
 	align-items: center;
 	display: flex;
-	flex-grow: 1;
 	gap: 1em;
 	justify-content: center;
+	width: 25%;
 }
 .navItem {
 	color: #000000;

@@ -1,9 +1,9 @@
 .navContainer {
 	align-items: center;
 	display: flex;
-	flex-grow: 2;
 	gap: 1em;
 	justify-content: center;
+	width: auto;
 }
 .navItem {
 	color: #000000;
