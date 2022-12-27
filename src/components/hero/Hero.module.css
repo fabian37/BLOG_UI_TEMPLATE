@@ -1,3 +1,8 @@
+.firstTitle {
+	font-size: 1.1em;
+	font-weight: 500;
+}
+
 .heroContainer {
 	align-items: center;
 	display: flex;
@@ -5,6 +10,18 @@
 	margin-top: 10.6em;
 	position: relative;
 }
+
+.img {
+	height: 25em;
+	object-fit: cover;
+	width: 100%;
+}
+
+.secondTitle {
+	font-size: 5.5em;
+	font-weight: 500;
+}
+
 .titleContainer {
 	align-items: center;
 	color: #444;
@@ -14,17 +31,4 @@
 	font-family: Lora, serif;
 	position: absolute;
 	top: -5%;
-}
-.firstTitle {
-	font-size: 1.1em;
-	font-weight: 500;
-}
-.secondTitle {
-	font-size: 5.5em;
-	font-weight: 500;
-}
-.img {
-	height: 25em;
-	object-fit: cover;
-	width: 100%;
 }
