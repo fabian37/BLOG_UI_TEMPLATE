@@ -1,0 +1,37 @@
+[
+	{
+		"category": ["Music", "Life"],
+		"image": "src/assets/foto1.jpeg",
+		"overview": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda officia architecto deserunt deleniti? Labore ipsum aspernatur magnam fugiat, reprehenderit praesentium blanditiis quos cupiditate ratione atque, exercitationem quibusdam, reiciendis odio laboriosam?",
+		"time": "1 hour ago",
+		"title": "Lorem impsum dolor sit amet"
+	},
+	{
+		"category": ["Music", "Life"],
+		"image": "src/assets/foto2.webp",
+		"overview": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda officia architecto deserunt deleniti? Labore ipsum aspernatur magnam fugiat, reprehenderit praesentium blanditiis quos cupiditate ratione atque, exercitationem quibusdam, reiciendis odio laboriosam?",
+		"time": "1 hour ago",
+		"title": "Lorem impsum dolor sit amet"
+	},
+	{
+		"category": ["Music", "Life"],
+		"image": "src/assets/foto3.jpeg",
+		"overview": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda officia architecto deserunt deleniti? Labore ipsum aspernatur magnam fugiat, reprehenderit praesentium blanditiis quos cupiditate ratione atque, exercitationem quibusdam, reiciendis odio laboriosam?",
+		"time": "1 hour ago",
+		"title": "Lorem impsum dolor sit amet"
+	},
+	{
+		"category": ["Music", "Life"],
+		"image": "src/assets/foto4.webp",
+		"overview": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda officia architecto deserunt deleniti? Labore ipsum aspernatur magnam fugiat, reprehenderit praesentium blanditiis quos cupiditate ratione atque, exercitationem quibusdam, reiciendis odio laboriosam?",
+		"time": "1 hour ago",
+		"title": "Lorem impsum dolor sit amet"
+	},
+	{
+		"category": ["Music", "Life"],
+		"image": "src/assets/foto5.webp",
+		"overview": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda officia architecto deserunt deleniti? Labore ipsum aspernatur magnam fugiat, reprehenderit praesentium blanditiis quos cupiditate ratione atque, exercitationem quibusdam, reiciendis odio laboriosam?",
+		"time": "1 hour ago",
+		"title": "Lorem impsum dolor sit amet"
+	}
+]
