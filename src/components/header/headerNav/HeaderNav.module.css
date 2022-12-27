@@ -5,10 +5,12 @@
 	justify-content: center;
 	width: auto;
 }
+
 .navItem {
 	color: #000000;
 	transition: 0.3s ease-in-out;
 }
+
 .navItem:hover {
 	color: #858585;
 }

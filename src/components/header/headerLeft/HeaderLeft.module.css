@@ -5,11 +5,13 @@
 	justify-content: center;
 	width: 25%;
 }
-.socialMediaContainer {
-	align-items: center;
-	display: flex;
-}
+
 i {
 	color: #444;
 	font-size: 1.1em;
+}
+
+.socialMediaContainer {
+	align-items: center;
+	display: flex;
 }
