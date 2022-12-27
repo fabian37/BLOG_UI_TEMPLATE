@@ -32,4 +32,4 @@
 
 ## PREVIEW
 
-https://preview-ui-three.vercel.app/
+https://blog-ui-template-fabian37.vercel.app/
