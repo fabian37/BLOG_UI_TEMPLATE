@@ -1,0 +1,6 @@
+.posts {
+	display: grid;
+	gap: 3em;
+	grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+	margin: 1em;
+}
