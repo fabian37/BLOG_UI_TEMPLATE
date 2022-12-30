@@ -71,11 +71,6 @@ i {
 
 @media (max-width: 717px) {
 	.sidebarContainer {
-		width: 100%;
-	}
-
-	.sidebarImage {
-		height: 100%;
-		width: 100%;
+		display: none;
 	}
 }
