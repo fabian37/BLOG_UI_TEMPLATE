@@ -2,17 +2,17 @@ import styles from './Sidebar.module.css';
 import image from '../../assets/foto1.jpeg';
 
 export const Sidebar = () => (
-	<aside className={styles.sidebarContainer}>
-		<span className={styles.sidebarTitle}>ABOUT ME</span>
-		<img className={styles.sidebarImage} src={image} alt='Winter' />
-		<p className={styles.sidebarDescription}>
+	<aside className={styles.container}>
+		<span className={styles.title}>ABOUT ME</span>
+		<img className={styles.image} src={image} alt='Winter' />
+		<p className={styles.description}>
 			Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit amet
 			ex esse.Sunt eu ut nostrud id quis proident.
 		</p>
-		<span className={styles.sidebarTitle}>CATEGORIES</span>
-		<div className={styles.sidebarCategories}>
+		<span className={styles.title}>CATEGORIES</span>
+		<div className={styles.categories}>
 			<a
-				className={styles.sidebarCategory}
+				className={styles.category}
 				href='/'
 				target='_blank'
 				rel='noopener noreferrer'
@@ -20,7 +20,7 @@ export const Sidebar = () => (
 				Life
 			</a>
 			<a
-				className={styles.sidebarCategory}
+				className={styles.category}
 				href='/'
 				target='_blank'
 				rel='noopener noreferrer'
@@ -28,7 +28,7 @@ export const Sidebar = () => (
 				Music
 			</a>
 			<a
-				className={styles.sidebarCategory}
+				className={styles.category}
 				href='/'
 				target='_blank'
 				rel='noopener noreferrer'
@@ -36,7 +36,7 @@ export const Sidebar = () => (
 				Sport
 			</a>
 			<a
-				className={styles.sidebarCategory}
+				className={styles.category}
 				href='/'
 				target='_blank'
 				rel='noopener noreferrer'
@@ -44,7 +44,7 @@ export const Sidebar = () => (
 				Style
 			</a>
 			<a
-				className={styles.sidebarCategory}
+				className={styles.category}
 				href='/'
 				target='_blank'
 				rel='noopener noreferrer'
@@ -52,7 +52,7 @@ export const Sidebar = () => (
 				Tech
 			</a>
 			<a
-				className={styles.sidebarCategory}
+				className={styles.category}
 				href='/'
 				target='_blank'
 				rel='noopener noreferrer'
@@ -60,7 +60,7 @@ export const Sidebar = () => (
 				Cinema
 			</a>
 		</div>
-		<span className={styles.sidebarTitle}>FOLLOW US</span>
+		<span className={styles.title}>FOLLOW US</span>
 		<div className={styles.socialMediaContainer}>
 			<a
 				className={styles.iconContainer}

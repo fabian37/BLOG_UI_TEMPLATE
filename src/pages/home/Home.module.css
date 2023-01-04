@@ -2,12 +2,3 @@
 	display: flex;
 	padding: 0 2em;
 }
-
-@media (max-width: 717px) {
-	.infoContainer {
-		align-items: center;
-		display: flex;
-		flex-direction: column;
-		padding: 0 1em;
-	}
-}

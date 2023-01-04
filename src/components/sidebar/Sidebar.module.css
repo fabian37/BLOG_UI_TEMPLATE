@@ -1,14 +1,4 @@
-i {
-	color: #444;
-	font-size: 1.1em;
-}
-
-.iconContainer {
-	align-items: center;
-	display: flex;
-}
-
-.sidebarCategories {
+.categories {
 	align-items: center;
 	display: grid;
 	grid-auto-rows: 2em;
@@ -17,39 +7,44 @@ i {
 	width: 100%;
 }
 
-.sidebarCategory {
+.category {
 	color: #be9656;
 	font-family: Varela Round, Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
 }
 
-.sidebarContainer {
+.container {
 	align-items: center;
-	background-color: #f2f2f2;
+	background-color: #fdfbfb;
 	border-radius: 0.4em;
 	display: flex;
+	flex: 1;
 	flex-direction: column;
 	height: fit-content;
 	justify-content: center;
 	padding: 1em;
 	margin: 1em;
-	width: 15em;
 }
 
-.sidebarDescription {
+.description {
 	color: #444;
 	font-family: Varela Round, Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
 	padding: 1em;
 }
 
-.sidebarImage {
+.iconContainer {
+	align-items: center;
+	display: flex;
+}
+
+.image {
 	height: 13em;
 	object-fit: cover;
 	width: 13em;
 }
 
-.sidebarTitle {
+.title {
 	border-bottom: 1px solid #a7a4a4;
 	border-top: 1px solid #a7a4a4;
 	font-family: Varela Round, sans-serif;
@@ -58,7 +53,7 @@ i {
 	margin: 1em 0;
 	padding: 0.5em;
 	text-align: center;
-	width: 100%;
+	width: 80%;
 }
 
 .socialMediaContainer {
@@ -70,7 +65,7 @@ i {
 }
 
 @media (max-width: 717px) {
-	.sidebarContainer {
+	.container {
 		display: none;
 	}
 }
