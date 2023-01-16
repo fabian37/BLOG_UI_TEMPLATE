@@ -1,6 +1,7 @@
+import { Link } from 'react-router-dom';
 import styles from './Post.module.css';
 
-export const Post = ({ category, image, overview, time, title }) => (
+export const Post = ({ category, image, overview, time, title, id }) => (
 	<div className={styles.post}>
 		<img className={styles.postImage} src={image} alt={title} />
 		<div className={styles.postCategories}>
@@ -16,14 +17,9 @@ export const Post = ({ category, image, overview, time, title }) => (
 				</a>
 			))}
 		</div>
-		<a
-			className={styles.postTitle}
-			href='/'
-			target='_blank'
-			rel='noopener noreferrer'
-		>
+		<Link className={styles.postTitle} to={`post/${id}`}>
 			{title}
-		</a>
+		</Link>
 		<span className={styles.postTime}>{time}</span>
 		<p className={styles.postDescription}>{overview}</p>
 	</div>
