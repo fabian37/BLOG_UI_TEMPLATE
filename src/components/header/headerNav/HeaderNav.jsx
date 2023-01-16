@@ -7,13 +7,13 @@ export const HeaderNav = () => {
 			<Link className={styles.navItem} to='/'>
 				HOME
 			</Link>
-			<Link className={styles.navItem} to='/'>
+			<Link className={styles.navItem} to='/about'>
 				ABOUT
 			</Link>
-			<Link className={styles.navItem} to='/'>
+			<Link className={styles.navItem} to='/contact'>
 				CONTACT
 			</Link>
-			<Link className={styles.navItem} to='/'>
+			<Link className={styles.navItem} to='/write'>
 				WRITE
 			</Link>
 		</nav>
