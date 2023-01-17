@@ -5,6 +5,7 @@ import { Write } from './pages/write/Write';
 import { Login } from './pages/login/Login';
 import { Register } from './pages/register/Register';
 import { Detail } from './pages/detail/Detail';
+import { Settings } from './pages/settings/Settings';
 import './App.css';
 
 const App = () => (
@@ -18,6 +19,7 @@ const App = () => (
 			<Route path='/login' element={<Login />} />
 			<Route path='/register' element={<Register />} />
 			<Route path='/post/:id' element={<Detail />} />
+			<Route path='/settings' element={<Settings />} />
 		</Routes>
 	</BrowserRouter>
 );

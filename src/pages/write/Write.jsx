@@ -30,7 +30,7 @@ export const Write = () => (
 						className={styles.writeDescription}
 						placeholder='Tell your story...'
 						name='description'
-						rows='12'
+						rows='11'
 					></textarea>
 					<button className={styles.btn} type='submit'>
 						<span>Publish</span>
