@@ -78,12 +78,10 @@
 	display: flex;
 	flex: 3;
 	flex-direction: column;
-	margin: 1em;
 	padding: 1em;
 }
 
 .writeContainer {
-	align-items: center;
 	display: flex;
 	margin-top: 4em;
 	max-width: 66em;
@@ -91,6 +89,8 @@
 
 .writeDescription {
 	border: none;
+	border-radius: 0.4em;
+	box-shadow: 0 0 0.625rem 0.0625rem rgba(18, 20, 23, 0.117);
 	color: #444;
 	font-family: Varela Round, Arial, Helvetica, sans-serif;
 	font-size: 1em;
