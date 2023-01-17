@@ -1,4 +1,4 @@
-.login {
+.signup {
 	align-items: center;
 	background: linear-gradient(
 		rgba(255, 255, 255, 0.5),
@@ -12,11 +12,11 @@
 	justify-content: center;
 }
 
-.loginTitle {
+.signupTitle {
 	font-size: 2.7em;
 }
 
-.loginForm {
+.signupForm {
 	display: flex;
 	flex-direction: column;
 	gap: 1em;
@@ -24,7 +24,7 @@
 	min-width: 15em;
 }
 
-.loginInput {
+.signupInput {
 	background-color: white;
 	border: none;
 	border-radius: 0.55em;
@@ -35,7 +35,7 @@
 	padding: 0.55em;
 }
 
-.loginButton {
+.signupButton {
 	border: none;
 	background-color: #be9656;
 	border-radius: 0.55em;
@@ -50,7 +50,7 @@
 	transition: 0.3s ease-in-out;
 }
 
-.loginButton:hover {
+.signupButton:hover {
 	background-color: white;
 	color: #be9656;
 }
